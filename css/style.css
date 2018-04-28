@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body {
+ direction: rtl;
+ }
+
+ header {
+ width: 100%;
+ height:200px;
+ background-image:url(../images/best-computer-wallpapers-101.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 0;
+ border-radius: 4px;
+ text-align:center;
+ color: red;
+ }
+ header h1 {
+	font-size: 50px;
+	color: beige;
+	font-family:url(../fonts/IranianSans.woff) format('woff');
+	}
+   
+header h3 {
+	font-size: 40px;
+	}
+	
+#content_right{
+		width: 20%;
+		float: right;
+		background-color: #E82427;
+		margin: 10px 5px 0 0;
+		}
+.list1{
+	background-image:url(../images/best-computer-wallpapers-101.jpg);
+}
+.list1 ul{
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 25px;
+	padding-right: 10px;
+}
+.list1 ul li{
+	display: block;
+
+}
+.list1 ul li a{
+	display: block;
+	text-decoration: none;
+	color: #361DD8;
+}
+.list1 ul li a:hover{
+	background-color: #DC2A2D;
+}
+.login{
+	background-image:url(../images/best-computer-wallpapers-101.jpg);
+	margin-top: 5px;
+	text-align:center;	
+}
+.login h1{
+	color: blue;
+}
+.login form input{
+	font-size: 20px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-right: 5px;
+}
+
+ #content_main {
+	 width: 75%;
+	 float: left;
+	 padding-right:5px;
+	 padding-left: 5px; 
+
+ }
+
+
+footer{
+	width:auto;
+	height:auto;
+	margin: 10px auto 10px;
+	clear: both;
+	background-image:url(../images/best-computer-wallpapers-101.jpg);
+	font-family:url(../fonts/IranianSans.woff) format('woff');
+}
+footer div p{
+	font-family: iransans;
+	color: aliceblue;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+footer ul li {
+	display: inline;
+}
+footer img{
+	width: 40px;
+	height: 40px;
+
+}
+#to_top{
+	right:-100;
+	bottom:10px;
+	cursor:pointer;
+}
+@media screen and (max-width:700px){
+	header{width:100%;
+	}
+	header h3{
+		font-size:25px;
+	}
+	nav{
+		width:100%;
+	}
+	.logo{
+		width:100%;
+	}
+	.content{
+		width:100%;
+	}
+	.content_center{
+		display:100%;
+	}
+	.content_left{
+		display:100%;
+	}
+	.content_right
+		display:100%;
+	}
+	footer{
+		width:100%
+	}
+	}
